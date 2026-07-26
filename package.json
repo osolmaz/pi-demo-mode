@@ -1,0 +1,44 @@
+{
+  "name": "pi-demo-mode",
+  "version": "0.1.0",
+  "description": "Self-driving demo mode for Pi: continuous story generation with a stripped-down TUI",
+  "keywords": [
+    "pi-package",
+    "demo",
+    "extension"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osolmaz/pi-demo-mode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/osolmaz/pi-demo-mode/issues"
+  },
+  "homepage": "https://github.com/osolmaz/pi-demo-mode#readme",
+  "files": [
+    "extensions/**",
+    "README.md",
+    "LICENSE"
+  ],
+  "pi": {
+    "extensions": [
+      "./extensions"
+    ]
+  },
+  "scripts": {
+    "format": "prettier --check .",
+    "typecheck": "tsc --noEmit",
+    "check": "npm run format && npm run typecheck"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "devDependencies": {
+    "@earendil-works/pi-coding-agent": "^0.82.1",
+    "@types/node": "^22.0.0",
+    "prettier": "^3.0.0",
+    "typescript": "^5.0.0"
+  }
+}
