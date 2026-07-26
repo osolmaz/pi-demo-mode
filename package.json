@@ -30,7 +30,8 @@
   "scripts": {
     "format": "prettier --check .",
     "typecheck": "tsc --noEmit",
-    "check": "npm run format && npm run typecheck"
+    "test": "vitest run",
+    "check": "npm run format && npm run typecheck && npm test"
   },
   "peerDependencies": {
     "@earendil-works/pi-coding-agent": "*"
@@ -39,6 +40,7 @@
     "@earendil-works/pi-coding-agent": "^0.82.1",
     "@types/node": "^22.0.0",
     "prettier": "^3.0.0",
-    "typescript": "^5.0.0"
+    "typescript": "^5.0.0",
+    "vitest": "^3.0.0"
   }
 }
