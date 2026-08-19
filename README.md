@@ -46,7 +46,7 @@ message you type as a live director note for the story.
 ## Used by
 
 - [localpi](https://github.com/osolmaz/localpi) (`localpi --demo`)
-- [diffusionpi](https://github.com/osolmaz/pi-diffusion) (`diffusionpi demo`)
+- [diffusionpi](https://github.com/osolmaz/diffusionpi) (`diffusionpi demo`)
 
 ## License
 
